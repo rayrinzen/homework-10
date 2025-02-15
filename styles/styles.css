@@ -1,0 +1,246 @@
+.btn-default {
+  border: 0;
+  background-color: #34547A;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 20px 41px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.header {
+  padding-block: 80px 140px;
+}
+.header .header__title {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 79px;
+  margin-bottom: 60px;
+}
+.header .header__button {
+  border: 0;
+  background-color: #34547A;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 20px 41px;
+  line-height: 26px;
+  font-size: 16px;
+}
+.header .navbar {
+  margin-bottom: 162px;
+}
+.header .navbar__list {
+  display: flex;
+  gap: 42px;
+  text-transform: uppercase;
+}
+.header .navbar__list li {
+  letter-spacing: 1.5px;
+}
+.header .navbar__list-item--active {
+  color: #34547A;
+  font-weight: 500;
+}
+
+.text__description {
+  color: #727272;
+  letter-spacing: 0.3px;
+  margin-bottom: 65px;
+  max-width: 540px;
+  line-height: 26px;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: min(100% - 40px, 1110px);
+  margin-inline: auto;
+}
+
+.gray-bg {
+  background-color: #EEEFF1;
+}
+
+.blue-bg {
+  background-color: #34547A;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 37px;
+}
+
+.about-me {
+  padding-block: 112px 100px;
+  text-align: center;
+}
+
+.about-me__description {
+  margin-top: 50px;
+  margin-inline: auto;
+}
+
+.projects {
+  padding-block: 100px;
+}
+.projects .projects__items {
+  display: flex;
+  gap: 45px;
+}
+.projects .projects__item {
+  background: no-repeat url(project.svg);
+  padding-left: 70px;
+}
+.projects .projects__item-title {
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 21px;
+  line-height: 25px;
+}
+.projects .projects__item-subtitle {
+  color: #FFFFFF;
+  line-height: 26px;
+}
+
+.about-work {
+  text-align: center;
+  padding-block: 100px;
+}
+.about-work .about-work__content iframe {
+  width: 1110px;
+  height: 600px;
+}
+
+.footer {
+  padding-block: 50px;
+  color: #FFFFFF;
+}
+.footer .footer__name {
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.footer .footer__copyright {
+  line-height: 21px;
+  font-size: 13px;
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+  .header {
+    padding-block: 30px 60px;
+  }
+  .header__title {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+  .text__description {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .header__button {
+    font-size: 12px;
+    padding: 12px 25px;
+  }
+  .projects__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about-work__content iframe {
+    height: 250px;
+  }
+  .about-me__description {
+    margin-top: 40px;
+  }
+  .footer {
+    text-align: center;
+    padding-block: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+  .header {
+    padding-block: 50px 100px;
+  }
+  .header__title {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+  .navbar__list {
+    gap: 30px;
+  }
+  .text__description {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 45px;
+  }
+  .projects__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+  }
+  .about-work__content iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+  .header {
+    padding-block: 30px 60px;
+  }
+  .header__title {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+  .text__description {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .header__button {
+    font-size: 12px;
+    padding: 12px 25px;
+  }
+  .projects__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about-work__content iframe {
+    height: 250px;
+  }
+  .about-me__description {
+    margin-top: 40px;
+  }
+  .footer {
+    text-align: center;
+    padding-block: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
